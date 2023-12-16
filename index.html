@@ -4,6 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
@@ -13,25 +22,25 @@
         <div class="conteiner header-content">
             <img src="./WebStudio (1).png" alt="">
             <nav>
-                <ul>
-                    <li><a href="">студія</a></li>
-                    <li><a href="">контакти</a></li>
-                    <li><a href="">портфіло</a></li>
-                </ul>
+                <a href="" class="a1">студія</a>
+                <a href="">контакти</a>
+                <a href="">портфіло</a>
             </nav>
             <address>
-                <a href="info@devstudio.com">info@devstudio.com</a>
+                <a href="info@devstudio.com" class="a1">info@devstudio.com</a>
                 <a href="tel:+380961111111">+380961111111</a>
             </address>
-            <h1>Ефективні рішення для вашого бізнеса</h1>
+            <h1 style="color: white;">Ефективні рішення для вашого бізнеса</h1>
             <button>Замовити послуги</button>
         </div>
-        <section>
+    </header>
+    <main>
+        <section class="section2">
             <div class="container">
                 <h3>Увага до деталей</h3>
                 <table>
-                    <tr>
-                        <td>Ідеальні міркування, і навіть початок</td>
+                    <tr class="tr1">
+                        <td class="td1">Ідеальні міркування, і навіть початок</td>
                     </tr>
                     <tr>
                         <td>повсякденної роботи з формуванням позиції</td>
@@ -68,69 +77,67 @@
                     </tr>
                 </table>
             </div>
-        </section>
-    </header>
-    <main>
-        <figure>
             <div class="container">
                 <h2>чим ми займаємось</h2>
-                <img src="img (3).png" alt="">
-                <div>
-                    <img src="./img (4).png" alt="">
-                </div>
-                <div>
-                    <img src="./img (5).png" alt="">
-                </div>
-                <h2>Наша команда</h2>
-                <img src="./img.jpg" alt="">
-                <h4>Ігор Демяненко</h4>
-                <table>
-                    <tr>
-                        <td>Product Desinger</td>
-                    </tr>
-                </table>
-                <div>
-                    <img src="./img (1).jpg" alt="">
-                    <h4>Ольга Рєпіна</h4>
-                    <table>
-                        <tr>
-                            <td>Frontend Developer</td>
-                        </tr>
-                    </table>
-                </div>
-                <div>
-                    <img src="./img (2).jpg" alt="">
-                    <h4>Микола Тарасов</h4>
-                    <table>
-                        <tr>
-                            <td>Marketing</td>
-                        </tr>
-                    </table>
-                </div>
-                <div>
-                    <img src="./img (3).jpg" alt="">
-                    <h4>Михайло єрмаков</h4>
-                    <table>
-                        <tr>
-                            <td>UI Desinger</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </figure>
+                <div class="img1">
+                    <img src="img (3).png" alt="">
+                    <div>
+                        <div class="img1">
+                            <img src="./img (4).png" alt="">
+                        </div>
+                        <div class="img1">
+                            <img src="./img (5).png" alt="">
+                        </div>
+                        <h2>Наша команда</h2>
+                        <img src="./img.jpg" class="img2" alt="">
+                        <h4>Ігор Демяненко</h4>
+                        <table>
+                            <tr>
+                                <td>Product Desinger</td>
+                            </tr>
+                        </table>
+                        <div>
+                            <img src="./img (1).jpg" class="img2" alt="">
+                            <h4>Ольга Рєпіна</h4>
+                            <table>
+                                <tr>
+                                    <td>Frontend Developer</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <img src="./img (2).jpg" class="img2" alt="">
+                            <h4>Микола Тарасов</h4>
+                            <table>
+                                <tr>
+                                    <td>Marketing</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <img src="./img (3).jpg" class="img2" alt="">
+                            <h4>Михайло єрмаков</h4>
+                            <table>
+                                <tr>
+                                    <td>UI Desinger</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <section class="section2"></section>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
             <img src="./WebStudio (1).png" alt="">
             <table>
                 <tr>
-                    <td>м. Київ, пр-т Лесі Українки, 26</td>
+                    <td class="address">м. Київ, пр-т Лесі Українки, 26</td>
                 </tr>
                 <tr>
-                    <td>info@devstudio.com</td>
+                    <td class="text1">info@devstudio.com</td>
                 </tr>
                 <tr>
-                    <td>+38 096 111 11 11</td>
+                    <td class="text1">+38 096 111 11 11</td>
                 </tr>
             </table>
         </div>
