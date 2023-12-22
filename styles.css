@@ -14,10 +14,15 @@
 }
 body {
    font-family: 'Playfair Display', serif;
+   box-sizing: border-box;
    
 }
 h1 {
-   background-color: black;
+   background-color: #212121;
+   /* margin: 200px 452px 280px 452px; */
+   border: #212121;
+   width: 1600px;
+   height: 600px;
    text-align: center;
 font-size: 44px;
 font-style: normal;
@@ -57,7 +62,7 @@ footer {
    background-color: var(--backdrop-background2);
    font-size: 14px;
 font-style: normal;
-font-weight: 400;
+/* font-weight: 400; */
 line-height: 24px;
 letter-spacing: 0.42px;
 }
@@ -105,8 +110,8 @@ flex-shrink: 0;
 }
 button {
    background-color: var(--backdrop-a1);
+   padding: 10px 32px 10px 32px;
    color: var(--backdrop-background);
-   text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
