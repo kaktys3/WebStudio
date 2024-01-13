@@ -4,15 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@1,100&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Roboto:wght@500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
@@ -22,13 +15,15 @@
     <header>
         <div class="container heder-container">
             <div class="nav">
-                <a href="" class="logo-link">
-                    <span>Web</span>Studio
-                </a>
+                <div>
+                    <a href="" class="logo-link">
+                        <span class="span">Web</span>Studio
+                    </a>
+                </div>
                 <nav class="nav2">
-                    <a href="">студія</a>
-                    <a href="">контакти</a>
-                    <a href="">портфіло</a>
+                    <a href="">Студія</a>
+                    <a href="">Портфоліо</a>
+                    <a href="">Контакти</a>
                 </nav>
             </div>
             <address class="heder-container2">
@@ -69,8 +64,8 @@
             </div>
         </section>
         <section>
-            <div class="h3">
-                <h3>Чим ми займаємося</h3>
+            <div>
+                <h2>Чим ми займаємося</h2>
             </div>
             <div class="container-main">
                 <div class="main1">
@@ -80,34 +75,43 @@
                 </div>
             </div>
         </section>
-        <div>
-            <h3>наша команда</h3>
-        </div>
-        <section>
+        <section class="section2">
             <div class="container-main">
                 <div class="main2">
                     <div>
-                        <img class="img-main2" src="./img.jpg" alt="">
-                        <h5>Ігор Дем'яненко</h5>
-                        <p>Product Designer</p>
+                        <h2>наша команда</h2>
                     </div>
-                    <div>
-                        <img class="img-main2" src="./img (1).jpg" alt="">
-                        <h5>Ольга Рєпіна</h5>
-                        <p>Frontend Developer</p>
-                    </div>
-                    <div>
-                        <img class="img-main2" src="./img (2).jpg" alt="">
-                        <h5>Микола Тарасов</h5>
-                        <p>Marketing</p>
-                    </div>
-                    <div>
-                        <img class="img-main2" src="./img (3).jpg" alt="">
-                        <h5>Михайло Єрмаков</h5>
-                        <p>UI Designer</p>
+                    <div id="fish">
+                        <div>
+                            <img class="img-main2" src="./img.jpg" alt="">
+                            <div class="igor">
+                                <h5>Ігор Дем'яненко</h5>
+                                <p>Product Designer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="img-main2" src="./img (1).jpg" alt="">
+                            <div class="olga">
+                                <h5>Ольга Рєпіна</h5>
+                                <p>Frontend Developer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="img-main2" src="./img (2).jpg" alt="">
+                            <div class="mikola">
+                                <h5>Микола Тарасов</h5>
+                                <p>Marketing</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img class="img-main2" src="./img (3).jpg" alt="">
+                            <div class="mihailo">
+                                <h5>Михайло Єрмаков</h5>
+                                <p>UI Designer</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </section>
     </main>
@@ -128,6 +132,7 @@
         </section>
 
     </footer>
+
 </body>
 
 </html>
